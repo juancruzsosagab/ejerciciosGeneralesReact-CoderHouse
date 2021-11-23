@@ -9,7 +9,7 @@ const Navbar = (props) => {
         <li><a href='google.com'>About us</a></li>
         <li><a href='google.com'>Projects</a></li>
         <li><a href='google.com'>Videos</a></li>
-        <li class='brand-name'><a href='google.com'>{props.children}</a></li>
+        <li className='brand-name'><a href='google.com'>{props.children}</a></li>
     </ul>
     
 
